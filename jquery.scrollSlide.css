@@ -1,0 +1,23 @@
+.fixed {
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.fixed .half {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: auto;
+    right: 0;
+    min-width: 470px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 9;
+}
+.fixed .half:first-child {
+    right: auto;
+    left: 0;
+}
